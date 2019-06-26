@@ -11,6 +11,7 @@ Usage
 -----
 The folder /Proposed contains codes for the proposed method as well as the baseline method B1. The folder /B2 contains the baseline method B2. Most of the codes are supported by Keras and TensorFlow, the WaveNet part is supported by Pytorch.
 
+Some audio samples are audio provided under the folder /AudioSamples to demonstrate the separation performance with difference algorithms, with the clean dry groundtruth (_source), the noisy mixture (_mixture), sound estimated with the proposed method (_proposed), with the B1 baseline (_B1) and B2 baseline (_B2). 
 
 **_First go to the folder /Proposed to run the proposed method and the baseline method B1_**
 *****************************************************************************************
