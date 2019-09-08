@@ -1,10 +1,10 @@
 # SpeechSynthesis4Separation
 
-__A Speech Synthesis Approach for High Fidelity Speech Separation and Generation__
+__A Speech Synthesis Approach for High Quality Speech Separation and Generation__
 
 __Qingju Liu, Philip JB Jackson, and Wenwu Wang__
 
-We propose a new method for source separation by synthesizing the source from a speech mixture corrupted by various environmental noise. Unlike traditional source separation methods which estimate the source from the mixture as a replica of the original source (e.g. by solving an inverse problem), our proposed method is a synthesis-based approach which aims to generate a new signal (i.e. "fake" source) that sounds similar to the original source. The proposed system has an encoder-decoder topology, where the encoder predicts intermediate-level features from the mixture, i.e. Mel-spectrum of the target source, using a hybrid recurrent and hourglass network, while the decoder is a state-of-the-art WaveNet speech synthesis network conditioned on the Mel-spectrum, which directly generates time-domain samples of the sources. Both objective and subjective evaluations were performed on the synthesized sources, and show great advantages of our proposed method for high-fidelity speech source separation and generation.
+We propose a new method for source separation by synthesizing the source from a speech mixture corrupted by various environmental noise. Unlike traditional source separation methods which estimate the source from the mixture as a replica of the original source (e.g. by solving an inverse problem), our proposed method is a synthesis-based approach which aims to generate a new signal (i.e. "fake" source) that sounds similar to the original source. The proposed system has an encoder-decoder topology, where the encoder predicts intermediate-level features from the mixture, i.e. Mel-spectrum of the target source, using a hybrid recurrent and hourglass network, while the decoder is a state-of-the-art WaveNet speech synthesis network conditioned on the Mel-spectrum, which directly generates time-domain samples of the sources. Both objective and subjective evaluations were performed on the synthesized sources, and show great advantages of our proposed method for high-quality speech source separation and generation.
 
 
 Usage
