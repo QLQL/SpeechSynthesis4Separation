@@ -1,6 +1,6 @@
 # SpeechSynthesis4Separation
 
-[__A Speech Synthesis Approach for High Quality Speech Separation and Generation__](https://github.com/QLQL/SpeechSynthesis4Separation/blob/master/SynthesisForSeparation.pdf)
+[__A Speech Synthesis Approach for High Quality Speech Separation and Generation__](https://ieeexplore.ieee.org/document/8892499)
 
 __Qingju Liu, Philip JB Jackson, and Wenwu Wang__
 
